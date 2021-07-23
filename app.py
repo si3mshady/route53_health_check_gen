@@ -17,7 +17,7 @@ if __name__ == "__main__":
     if len(args) != 6:
           print("\nPlease use format:\n\n\t 'JobName' 'IPAddress|fqdn' 'Port'" \
               "'Type' 'ResourcePath''FailureThreshold'")                        
-          print("\n\tExample => NewHealthCheck 8.8.8.8  80 HTTP /   5\n")
+          print("\n\tExample => Job1 54.19.13.3  80 HTTP  / 4\n")
     else:
         #pattern match ip address 
         pattern = "^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$"
